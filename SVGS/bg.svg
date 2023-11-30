@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2501" height="492" fill="none" viewBox="0 0 2501 492">
+  <g clip-path="url(#a)">
+    <path fill="#BCF3FF" d="M0 0h2501v492H0z"/>
+    <path fill="#6CDE7E" d="M0 313h2501v184H0z"/>
+    <path fill="#6C4A36" d="M260.08 288.379h9.756v33.797h-9.756z"/>
+    <circle cx="264.784" cy="284.721" r="13.066" fill="#6DDC7F"/>
+    <path fill="#6C4A36" d="M470.205 288.379h9.756v33.797h-9.756z"/>
+    <circle cx="474.908" cy="284.721" r="13.066" fill="#6DDC7F"/>
+    <path fill="#6C4A36" d="M287.262 299.494h7.085v24.546h-7.085z"/>
+    <circle cx="290.678" cy="296.837" r="9.489" fill="#22B339"/>
+    <path fill="#6C4A36" d="M385.626 294.135h7.085v24.546h-7.085z"/>
+    <circle cx="389.043" cy="291.478" r="9.489" fill="#22B339"/>
+    <path fill="#6C4A36" d="M313.642 284.509h11.963v41.444h-11.963z"/>
+    <circle cx="319.41" cy="280.022" r="16.022" fill="#119125"/>
+    <path fill="#6C4A36" d="M426.063 286.422H414.1v41.444h11.963z"/>
+    <circle cx="16.022" cy="16.022" r="16.022" fill="#119125" transform="matrix(-1 0 0 1 436.317 265.914)"/>
+    <path fill="#6C4A36" d="M349.63 290.654h10.19v35.299h-10.19z"/>
+    <circle cx="354.543" cy="286.832" r="13.647" fill="#02C721"/>
+    <path fill="#9B9A9A" d="M639 257h67v84h-67z"/>
+    <path fill="#6A6A6A" d="M712 277h67v59h-67z"/>
+    <path fill="#9B9A9A" d="M785 286h67v52h-67z"/>
+    <path fill="#6A6A6A" d="M874 171h67v172h-67zm78 101h67v71h-67z"/>
+    <path fill="#9B9A9A" d="M1030 171h67v172h-67zm78-12h67v182h-67z"/>
+    <path fill="#6C4A36" d="M2005.36 289.379h9.756v33.797h-9.756z"/>
+    <circle cx="2010.07" cy="285.721" r="13.066" fill="#6DDC7F"/>
+    <path fill="#6C4A36" d="M2215.49 289.379h9.756v33.797h-9.756z"/>
+    <circle cx="2220.19" cy="285.721" r="13.066" fill="#6DDC7F"/>
+    <path fill="#6C4A36" d="M2032.54 300.494h7.085v24.546h-7.085z"/>
+    <circle cx="2035.96" cy="297.837" r="9.489" fill="#22B339"/>
+    <path fill="#6C4A36" d="M2130.91 295.135h7.085v24.546h-7.085z"/>
+    <circle cx="2134.32" cy="292.478" r="9.489" fill="#22B339"/>
+    <path fill="#6C4A36" d="M2058.92 285.509h11.963v41.444h-11.963z"/>
+    <circle cx="2064.69" cy="281.022" r="16.022" fill="#119125"/>
+    <path fill="#6C4A36" d="M2171.35 287.422h-11.963v41.444h11.963z"/>
+    <circle cx="16.022" cy="16.022" r="16.022" fill="#119125" transform="matrix(-1 0 0 1 2181.6 266.914)"/>
+    <path fill="#6C4A36" d="M2094.91 291.654h10.19v35.299h-10.19z"/>
+    <circle cx="2099.83" cy="287.832" r="13.647" fill="#02C721"/>
+    <circle cx="1401.5" cy="308.5" r="61.5" fill="#22B339"/>
+    <circle cx="1709.5" cy="343.5" r="113.5" fill="#119125"/>
+    <circle cx="1789" cy="340" r="75" fill="#02C721"/>
+    <circle cx="1529" cy="334" r="137" fill="#119125"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h2501v492H0z"/>
+    </clipPath>
+  </defs>
+</svg>
