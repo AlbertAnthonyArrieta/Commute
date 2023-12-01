@@ -11,3 +11,67 @@
 //         josh.style.display = "none";
 //     }
 // }, 1000);
+
+// setVisibility("josh", false);
+// setVisibility("josh", true);
+
+document.getElementById('myRange').addEventListener('input', function () {
+    var value = this.value;
+    // Erwin
+    if (value >= 0 && value <= 40 || 75 <= value && value <= 100) {
+        setVisibility('erwin', true);
+    } else {
+        setVisibility('erwin', false);
+    }
+
+    // Josh
+    if (value >= 5 && value <= 35 || 70 <= value && value <= 85) {
+        setVisibility('josh', true);
+    } else {
+        setVisibility('josh', false);
+    }
+
+    //Lorrie
+    if (value >= 5 && value <= 35) {
+        setVisibility('lorrie', true);
+    } else {
+        setVisibility('lorrie', false);
+    }
+
+    //Jorge
+    if (value >= 15 && value <= 25 || 55 <= value && value <= 65) {
+        setVisibility('jorge', true);
+    } else {
+        setVisibility('jorge', false);
+    }
+
+    //Trisha
+    if (value >= 25 && value <= 40 || 60 <= value && value <= 90) {
+        setVisibility('trisha', true);
+    } else {
+        setVisibility('trisha', false);
+    }
+
+    //Ysabel
+    if (value >= 35 && value <= 50 || 60 <= value && value <= 85) {
+        setVisibility('ysabel', true);
+    } else {
+        setVisibility('ysabel', false);
+    }
+
+    //Nora
+    if (value >= 55 && value <= 85) {
+        setVisibility('nora', true);
+    } else {
+        setVisibility('nora', false);
+    }
+});
+
+function setVisibility(character, visibility) {
+    var character = document.getElementById(character);
+    if (visibility == false) {
+        character.style.display = "none";
+    } else if (visibility == true) {
+        character.style.display = "inline";
+    }
+}
