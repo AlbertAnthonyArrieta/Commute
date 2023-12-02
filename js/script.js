@@ -17,6 +17,15 @@
 
 document.getElementById('myRange').addEventListener('input', function () {
     var value = this.value;
+
+    // Time
+        // Map the slider value from [0, 100] to [6, 22]
+        var hour = Math.round((value / 100) * (22 - 6) + 6);
+        // Format the hour in a 12-hour format
+        var formattedHour = hour > 12 ? hour - 12 : hour;
+        var amPm = hour >= 12 ? 'PM' : 'AM';
+        // Update the "time" element's text
+        document.getElementById('clock').textContent = formattedHour + ':00 ' + amPm;
     // Erwin
     if (value >= 0 && value <= 40 || 75 <= value && value <= 100) {
         setVisibility('erwin', true);
