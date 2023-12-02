@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-
     margin-bottom: 10px;
 }
 
@@ -33,15 +32,30 @@ a {
     overflow: hidden;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 20px;
 }
 
 .svg-container {
     display: flex;
+    flex: 3;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
 }
+
+.content {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+#info {
+    flex: 1;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .slider {
     -webkit-appearance: none;
@@ -75,4 +89,9 @@ a {
     border-radius: 50%;
     background: #1e57ad;
     cursor: pointer;
+}
+
+
+#erwin:hover, #trisha:hover, #jorge:hover, #nora:hover, #josh:hover, #ysabel:hover, #lorrie:hover {
+    filter: brightness(80%);
 }
